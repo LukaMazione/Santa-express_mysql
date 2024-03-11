@@ -1,0 +1,27 @@
+{
+  "name": "santa_express_db",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "mongo": "cd /d K:/MongoDB/Server/7.0/bin && mongod",
+    "start": "npx nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.56.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.29.1"
+  },
+  "dependencies": {
+    "@types/express-handlebars": "^6.0.0",
+    "express": "^4.18.2",
+    "express-async-errors": "^3.1.1",
+    "express-handlebars": "^7.1.2",
+    "method-override": "^3.0.0",
+    "mysql2": "^3.9.1",
+    "uuid": "^9.0.1"
+  }
+}
